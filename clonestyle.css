@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+body{
+    background-color:aliceblue;
+    background-image: url('OIP.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    font-family: 'Chela One', cursive;
+    border-color: blue;
+    border: 10px;;
+    border-radius: 10px;
+}
+nav ul{
+    display:flex;
+    background-color: aqua;
+    color:black;
+}
+nav ul li{
+    padding:10px 12px;
+}
+.navigation {
+    padding:18px;
+    display:flex;
+    padding-left: 41px;
+}
+.brand img{
+    width:50px;
+    height:50px;
+    padding:0 8px;
+}
+.brand {
+     display:flex;
+     align-items: center;
+     /* font-weight: bolder; */
+     font-size: 1.3rem;
+}
+.container{
+   position: relative; 
+    min-height: 81vh;
+    /* vh give us percent of whole page */
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin-left: 150px;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom{
+    position:sticky;
+    height:120px;
+    bottom: 0px;
+        background-color: black;
+        color:aliceblue;
+        display:flex;
+        /* very important */
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+.icons{
+        margin-top:14px;
+        
+    }
+.icons i{
+        cursor:pointer;
+        color:aqua;
+}
+#taskbar{
+        width:80vw;
+        cursor:pointer;
+}
+#masterPlay{
+    cursor:pointer;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 74px;
+}
+.contout img{
+    /* background-image:url(https://th.bing.com/th/id/OIP.Pb9xSvBqVA5QCCTgi-TOnwHaE7?pid=ImgDet&rs=1);
+    */
+    /* background-repeat: no-repeat; */
+    /* margin-left: 10px; */
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+   
+}
+#previous{
+    padding:10px;
+}
+#next{
+    padding:10px;
+}
+
+
+#gif{
+    padding:10px;
+    width:80px;
+    height: 80px;
+    
+}
+#SongName{
+    padding:10px;
+    margin-left: 70vw;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.timestamp{
+    margin: 0 23px;
+}
+
+
+.songInfo{
+    left:10vw;
+    position:absolute;
+    font-family: 'Varela Round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width: 1100px) {
+    body {
+        background-color: red;
+    }
+  }
